@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fortifications - Industrial</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="FT_ENIAC"]/description</xpath>
+      <value>
+        <description>Also known as the Electronic Numerical Integrator And Computer, it is a massive early electronic computer used for complex calculations. Consumes enormous amounts of power.\nIncreases research speed when placed near a hi-tech research bench and unlocks new research projects from reading the Disk. Each hi-tech research bench can connect up to 4 ENIACS.</description>
+      </value>
+    </match>
+  </Operation>
+</Patch>
