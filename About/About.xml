@@ -3,6 +3,7 @@
   <packageId>DePaWSiT.FTIndustrial.ENIACPatch</packageId>
   <name>FTIndustrial ENIAC patch</name>
   <author>DePaWSiT</author>
+  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/POWERRoundIcon</modIconPath>
   <description>Updates the description to remove a trailing enter</description>
   <supportedVersions>
     <li>1.6</li>
